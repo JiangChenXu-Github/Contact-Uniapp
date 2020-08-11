@@ -1,0 +1,30 @@
+.appwrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding-top: calc(var(--status-bar-height));
+	.top-bar {
+		position: absolute;
+		top: var(--status-bar-height);
+		left: 0;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		box-sizing: border-box;
+		width: 100%;
+		height: 88rpx;
+		background-color: $uni-bg-color;
+		padding: 0 $uni-spacing-col-base;
+		z-index: 10;
+	}
+	.bottom-content {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		overflow: scroll;
+	}
+}

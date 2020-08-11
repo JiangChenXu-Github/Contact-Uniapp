@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "message": "/pages/index/components/message",
+    "relation": "/pages/index/components/relation"
+  }
+}
